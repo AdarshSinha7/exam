@@ -1,8 +1,8 @@
 import javax.swing.JOptionPane;
 
-public class FactorialGUI 
+public class FactorialGUI
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         // Get the input value from a JOptionPane dialog
         String inputString = JOptionPane.showInputDialog("Enter a number:");
@@ -18,7 +18,7 @@ public class FactorialGUI
 
         // Calculate the factorial
         double factorial = 1;
-        for (int i = 2; i <= input; i++) 
+        for (int i = 2; i <= input; i++)
         {
             factorial *= i;
         }
